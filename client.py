@@ -1,7 +1,7 @@
 import socket, threading
 nickname = input("Enter your nickname: ")
-host = '192.168.29.137'                                                      
-port = 3000 
+host = '10.0.0.72'                                                      
+port = 6677 
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 #connecting client to server
@@ -21,8 +21,8 @@ def receive():
             break
         
 def write():
-    while True:                                                 
-        message = '{}: {}'.format(nickname, input(''))
+    while True:
+        message = '=> {}: {}'.format(nickname, input('')) 
         client.send(message.encode('ascii'))
 
 #receiving multiple messages
