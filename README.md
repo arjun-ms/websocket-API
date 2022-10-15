@@ -2,7 +2,7 @@
 # ***Chat@Socket***
 
 <p>A command line chat application built from Python.</p>
-Saturday HackNight project at TinkerSpace by TinkerHub.
+Saturday HackNight project at TinkerSpace by TinkerHub Foundation.
 
 ## Team members:
 
